@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">自律空间</string>
+    <string name="accessibility_description">用于识别朋友圈页面，并显示你启用的计划提醒。\n\n只接收应用标识和页面类名，不读取聊天、输入、密码或截图。无障碍提醒本身不联网，不需要录音或联系人权限。\n\n计划默认保存在本机；邮箱账号登录及你主动发起的云备份会联网。课表图片仅在本机识别。电话、时钟、通话和设置优先保留，可紧急暂停。\n\n可随时在系统无障碍设置中关闭。</string>
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">@font/focus_sans</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:dialogTheme">@style/QuietDialog</item>
+        <item name="android:alertDialogTheme">@style/QuietDialog</item>
+        <item name="android:colorAccent">#B2E6EF</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#0B1220</item>
+        <item name="android:navigationBarColor">#0B1220</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#0B1220</item>
+    </style>
+    <style name="QuietDialog" parent="android:style/Theme.Material.Dialog.Alert">
+        <item name="android:fontFamily">@font/focus_sans</item>
+        <item name="android:colorAccent">#B2E6EF</item>
+        <item name="android:windowBackground">#162234</item>
+    </style>
+</resources>

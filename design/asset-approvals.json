@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-29",
+  "tool": "built-in image_gen",
+  "adult": {
+    "base": "assistant-preview-v2.png",
+    "authorization": "原版可以；下巴圆润些、发量减少，保留原版服装"
+  },
+  "chibi": {
+    "base": "assistant-chibi-preview-v4.png",
+    "authorization": "可以第二图；稍微收敛点微笑，等改差不多了就搞安装包；头发可以再简单一点对于q版"
+  },
+  "animation": "最好有点小动画（发丝摇晃 眨眼 轻笑 手指动）",
+  "sha256": {
+    "assistant.png": "fa12089d0abc5e3b062c96b31b631d963bbe47701371f0a66ed8f1fab1c8efeb",
+    "assistant-blink.png": "29ee3614f4a3e4ab689e276c87e494709843557d4c2c743174c52b07eaf92b0f",
+    "chibi.png": "ad729945d9b617365901362e611cb2562972a38677c836bf791e3227c4d01f6a",
+    "chibi-blink.png": "ed16b8c69c1680947253e480e8f38dbfba0a9d386948cb0b54f477bc338a8e3c"
+  },
+  "poses": {
+    "file": "companion-poses-v1.png",
+    "authorization": "用户要求：更多表情和姿势，计划页面倚靠对话框与计划框，手部有动画。",
+    "frames": [
+      "lean",
+      "blink",
+      "encourage",
+      "wave-a",
+      "wave-b",
+      "think"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "f7315a5631905a6d2596bee446f2a22a027ccdff6f8eae0512392eadcc96a1b9"
+  },
+  "standing": {
+    "file": "companion-standing-v2.png",
+    "authorization": "用户反馈前一姿态油腻，要求重新修改。改为站直平视、双手垂放，不歪头、不托腮、不进页挥手。",
+    "frames": [
+      "neutral",
+      "blink",
+      "hand-a",
+      "hand-b"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "16f986cfad5bea57288944e7e472034bedccd45e874c7e7fa6998e8ff4d2ce5d"
+  }
+}

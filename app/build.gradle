@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'cn.weeklymoments.guard'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'cn.weeklymoments.guard'
+        minSdk 26
+        targetSdk 34
+        versionCode 10
+        versionName '0.7.1'
+        ndk { abiFilters 'arm64-v8a' }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+dependencies { implementation files('libs/tesseract4android-4.9.0.aar') }
